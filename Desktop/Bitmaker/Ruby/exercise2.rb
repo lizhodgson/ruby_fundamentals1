@@ -13,3 +13,5 @@ puts string + integer
 result = (45628 * 7839).to_s
 puts("The total of 45628 times 7839 is = " + result)
 puts("The total of 45628 times 7839 is #{result}")
+
+puts (true && false) || (false && true) || !(false && false)
